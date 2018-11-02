@@ -1,0 +1,2 @@
+# serverless
+sample serverless application
