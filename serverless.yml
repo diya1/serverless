@@ -11,7 +11,8 @@ provider:
 
 # Service-wide environment variables
   environment:
-    STAGE: ${opt:stage}
+    #STAGE: ${opt:stage}
+    STAGE: 'dev'
 
 # Add statements to the Lambda function's IAM Role
   iamRoleStatements:
@@ -47,7 +48,7 @@ resources:
     TodosDB:
       Type: 'AWS::DynamoDB::Table'
       Properties:
-        TableName: 'Todos-${opt:stage}'
+        TableName: 'Todos-dev'
         # here we define the primary key of the table.
         AttributeDefinitions:
           -
