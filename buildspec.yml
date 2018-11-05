@@ -9,4 +9,8 @@ phases:
     commands:
       - npm run-script lint
       - npm test
-
+      - serverless deploy --stage test -v
+      - npm run-script integration
+  post_build:
+    commands:
+      - serverless remove --stage test -v
