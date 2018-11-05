@@ -13,4 +13,4 @@ phases:
       - npm run-script integration
   post_build:
     commands:
-      - serverless remove --stage test -v
+#       - serverless remove --stage test -v
