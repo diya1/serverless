@@ -9,4 +9,4 @@ phases:
     commands:
       - npm run-script lint
       - npm test
-      - serverless deploy -v
+
