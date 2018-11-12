@@ -9,7 +9,7 @@ phases:
     commands:
       - npm run-script lint
       - npm test
-      - serverless deploy --stage production --region eu-central-1
+      - serverless deploy --stage production 
    #   - serverless deploy --stage dev -v
 #       - npm run-script integration
 #   post_build:
