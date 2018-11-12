@@ -7,7 +7,7 @@ provider:
 # Overwrite defaults
   memorySize: 512 # overwrite default memory of 1024
   versionFunctions: false # don't create a new function version with each deploy
-  region: us-west-2 # override default region us-east-1
+  region:us-east-1 # override default region us-east-1
 
 # Service-wide environment variables
   environment:
